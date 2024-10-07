@@ -1,11 +1,12 @@
 import java.io.IOException;
-import java.io.RandomAccessFile;
 
-import clases.FlujoByteVariosAccesos;
+
+import clases.AccesoBuffer;
+
 
 public class App {
     public static void main(String[] args) throws IOException {
-        FlujoAleatorio.inicio();
+      AccesoBuffer.inicio();
 
     }
 }
